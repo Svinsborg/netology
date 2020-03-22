@@ -54,7 +54,7 @@ public class Main {
     private static void addStudent() {
         StringBuffer input = new StringBuffer();
         while (true) {
-            if ( getStr("Введите данные студента \n ФИО, группа, № студ. билета", input ));
+            if ( getStr("Введите данные студента \n ФИО, группа, № студ. билета", input ))
             break;
 
             Scanner buf = new Scanner(input.toString());
